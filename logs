@@ -1,0 +1,126 @@
+TestSuite [TestSuite1] started at 2019-11-27 18:45:44
+TestCase [CapitalCity TestCase] started at 2019-11-27 18:45:44.272
+TestCase [CapitalCity TestCase] finished with status [FINISHED], time taken = 65
+TestCase [CountriesUsingCurrency TestCase] started at 2019-11-27 18:45:44.338
+Step 1 [CapitalCity] OK: took 65 ms
+TestCase [CountriesUsingCurrency TestCase] finished with status [FINISHED], time taken = 67
+TestCase [CountryCurrency TestCase] started at 2019-11-27 18:45:44.406
+Step 1 [CountriesUsingCurrency] UNKNOWN: took 67 ms
+TestCase [CountryCurrency TestCase] finished with status [FINISHED], time taken = 64
+TestCase [CountryFlag TestCase] started at 2019-11-27 18:45:44.471
+Step 1 [CountryCurrency] UNKNOWN: took 64 ms
+TestCase [CountryFlag TestCase] finished with status [FINISHED], time taken = 63
+TestCase [CountryIntPhoneCode TestCase] started at 2019-11-27 18:45:44.535
+Step 1 [CountryFlag] UNKNOWN: took 63 ms
+TestCase [CountryIntPhoneCode TestCase] finished with status [FINISHED], time taken = 64
+TestCase [CountryISOCode TestCase] started at 2019-11-27 18:45:44.600
+Step 1 [CountryIntPhoneCode] UNKNOWN: took 64 ms
+TestCase [CountryISOCode TestCase] finished with status [FINISHED], time taken = 66
+TestCase [CountryName TestCase] started at 2019-11-27 18:45:44.667
+Step 1 [CountryISOCode] UNKNOWN: took 66 ms
+TestCase [CountryName TestCase] finished with status [FINISHED], time taken = 63
+TestCase [CurrencyName TestCase] started at 2019-11-27 18:45:44.731
+Step 1 [CountryName] UNKNOWN: took 63 ms
+TestCase [CurrencyName TestCase] finished with status [FINISHED], time taken = 61
+TestCase [FullCountryInfo TestCase] started at 2019-11-27 18:45:44.793
+Step 1 [CurrencyName] UNKNOWN: took 61 ms
+TestCase [FullCountryInfo TestCase] finished with status [FINISHED], time taken = 63
+TestCase [FullCountryInfoAllCountries TestCase] started at 2019-11-27 18:45:44.857
+Step 1 [FullCountryInfo] UNKNOWN: took 63 ms
+Step 2 [FullCountryInfoAllCountries] UNKNOWN: took 398 ms
+TestCase [FullCountryInfoAllCountries TestCase] finished with status [FINISHED], time taken = 398
+TestCase [LanguageISOCode TestCase] started at 2019-11-27 18:45:45.256
+TestCase [LanguageISOCode TestCase] finished with status [FINISHED], time taken = 63
+TestCase [LanguageName TestCase] started at 2019-11-27 18:45:45.321
+Step 1 [LanguageISOCode] UNKNOWN: took 63 ms
+TestCase [LanguageName TestCase] finished with status [FINISHED], time taken = 64
+TestCase [ListOfContinentsByCode TestCase] started at 2019-11-27 18:45:45.386
+Step 1 [LanguageName] UNKNOWN: took 64 ms
+TestCase [ListOfContinentsByCode TestCase] finished with status [FINISHED], time taken = 65
+TestCase [ListOfContinentsByName TestCase] started at 2019-11-27 18:45:45.453
+Step 1 [ListOfContinentsByCode] UNKNOWN: took 65 ms
+TestCase [ListOfContinentsByName TestCase] finished with status [FINISHED], time taken = 65
+TestCase [ListOfCountryNamesByCode TestCase] started at 2019-11-27 18:45:45.518
+Step 1 [ListOfContinentsByName] UNKNOWN: took 65 ms
+Step 2 [ListOfCountryNamesByCode] UNKNOWN: took 195 ms
+TestCase [ListOfCountryNamesByCode TestCase] finished with status [FINISHED], time taken = 195
+TestCase [ListOfCountryNamesByName TestCase] started at 2019-11-27 18:45:45.713
+Step 1 [ListOfCountryNamesByName] UNKNOWN: took 202 ms
+TestCase [ListOfCountryNamesByName TestCase] finished with status [FINISHED], time taken = 202
+TestCase [ListOfCountryNamesGroupedByContinent TestCase] started at 2019-11-27 18:45:45.917
+Step 1 [ListOfCountryNamesGroupedByContinent] UNKNOWN: took 191 ms
+TestCase [ListOfCountryNamesGroupedByContinent TestCase] finished with status [FINISHED], time taken = 191
+TestCase [ListOfCurrenciesByCode TestCase] started at 2019-11-27 18:45:46.111
+TestCase [ListOfCurrenciesByCode TestCase] finished with status [FINISHED], time taken = 102
+Step 1 [ListOfCurrenciesByCode] UNKNOWN: took 102 ms
+TestCase [ListOfCurrenciesByName TestCase] started at 2019-11-27 18:45:46.216
+TestCase [ListOfCurrenciesByName TestCase] finished with status [FINISHED], time taken = 106
+TestCase [ListOfLanguagesByCode TestCase] started at 2019-11-27 18:45:46.324
+Step 1 [ListOfCurrenciesByName] UNKNOWN: took 106 ms
+Step 2 [ListOfLanguagesByCode] UNKNOWN: took 160 ms
+TestCase [ListOfLanguagesByCode TestCase] finished with status [FINISHED], time taken = 160
+TestCase [ListOfLanguagesByName TestCase] started at 2019-11-27 18:45:46.485
+Step 1 [ListOfLanguagesByName] UNKNOWN: took 162 ms
+TestCase [ListOfLanguagesByName TestCase] finished with status [FINISHED], time taken = 162
+TestSuite [TestSuite1] finished with status [FINISHED], time taken = 2378
+TestSuite [TestSuite2] started at 2019-11-27 18:45:46
+TestCase [CountryInfoServiceSoapBinding TestSuite] started at 2019-11-27 18:45:46.652
+Step 1 [TestStepProp] OK: took 0 ms
+Step 2 [Groovy Script] OK: took 0 ms
+Step 3 [GetSetProperties] OK: took 0 ms
+ -> Script-result: {Name=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@5c1548e1, CountryName=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@198b2f18, Name2=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@386588be}
+Step 4 [CapitalCity] OK: took 65 ms
+Step 5 [CountriesUsingCurrency] UNKNOWN: took 75 ms
+Step 6 [CountryCurrency] UNKNOWN: took 63 ms
+Step 7 [CountryFlag] UNKNOWN: took 63 ms
+Step 8 [CountryIntPhoneCode] UNKNOWN: took 64 ms
+Step 9 [CountryISOCode] UNKNOWN: took 64 ms
+Step 10 [CountryName] UNKNOWN: took 64 ms
+Step 11 [CurrencyName] UNKNOWN: took 64 ms
+Step 12 [FullCountryInfo] UNKNOWN: took 66 ms
+Step 13 [FullCountryInfoAllCountries] UNKNOWN: took 401 ms
+Step 14 [LanguageISOCode] UNKNOWN: took 65 ms
+Step 15 [LanguageName] UNKNOWN: took 63 ms
+Step 16 [ListOfContinentsByCode] UNKNOWN: took 65 ms
+Step 17 [ListOfContinentsByName] UNKNOWN: took 66 ms
+Step 18 [ListOfCountryNamesByCode] UNKNOWN: took 200 ms
+Step 19 [ListOfCountryNamesByName] UNKNOWN: took 205 ms
+Step 20 [ListOfCountryNamesGroupedByContinent] UNKNOWN: took 190 ms
+Step 21 [ListOfCurrenciesByCode] UNKNOWN: took 98 ms
+Step 22 [ListOfCurrenciesByName] UNKNOWN: took 105 ms
+Step 23 [ListOfLanguagesByCode] UNKNOWN: took 157 ms
+Step 24 [ListOfLanguagesByName] UNKNOWN: took 174 ms
+TestCase [CountryInfoServiceSoapBinding TestSuite] finished with status [FINISHED], time taken = 2377
+TestCase [PropertyTransferDemo] started at 2019-11-27 18:45:49.041
+Step 1 [CountryISOCode] UNKNOWN: took 64 ms
+Step 2 [Property Transfer] OK: took 0 ms
+ -> Performed transfer [CountryCode]
+Step 3 [CapitalCity] UNKNOWN: took 64 ms
+Step 4 [Property Transfer2] OK: took 0 ms
+ -> Performed transfer [MoneyCode]
+Step 5 [CountryCurrency] UNKNOWN: took 66 ms
+Step 6 [Property Transfer3] OK: took 0 ms
+ -> Performed transfer [FullInfo]
+TestCase [PropertyTransferDemo] finished with status [FINISHED], time taken = 259
+TestSuite [TestSuite2] finished with status [FINISHED], time taken = 2658
+TestSuite [TestSuite3] started at 2019-11-27 18:45:49
+TestCase [TestCase1] started at 2019-11-27 18:45:49.308
+Step 1 [FullCountryInfo] UNKNOWN: took 65 ms
+TestCase [TestCase1] finished with status [FINISHED], time taken = 0
+TestCase [TestCase2] started at 2019-11-27 18:45:49.309
+Step 1 [GroovyScript1] OK: took 0 ms
+Step 2 [Hello] OK: took 0 ms
+Step 3 [CallHello] OK: took 0 ms
+TestCase [TestCase2] finished with status [FINISHED], time taken = 63
+TestCase [TestCase3] started at 2019-11-27 18:45:49.374
+Step 1 [GetCountryISOCode2] OK: took 63 ms
+Step 2 [CallHello] OK: took 0 ms
+Step 3 [GetCountryISOCode] OK: took 65 ms
+Step 4 [GetCountryISOCode] OK: took 64 ms
+Step 5 [Groovy Script] OK: took 129 ms
+TestCase [TestCase3] finished with status [FINISHED], time taken = 2912
+TestCase [TestCase4] started at 2019-11-27 18:45:52.224
+Step 1 [RunTestSuite] OK: took 2654 ms
+TestCase [TestCase4] finished with status [FINISHED], time taken = 70
+TestSuite [TestSuite3] finished with status [FINISHED], time taken = 2988
+Step 2 [RunTestCase] OK: took 70 ms
